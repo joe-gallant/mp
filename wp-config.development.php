@@ -13,7 +13,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'microdot');
+define('DB_NAME', 'mighton');
 
 /** MySQL database username */
 define('DB_USER', 'root');
@@ -31,7 +31,7 @@ define('DB_HOST', 'localhost');
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
  */
-define('WP_HOME','http://microdot.dev');
-define('WP_SITEURL','http://microdot.dev');
+define('WP_HOME','http://mp.dev');
+define('WP_SITEURL','http://mp.dev');
 
 define('WP_DEBUG', true);

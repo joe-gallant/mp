@@ -17,16 +17,16 @@
 // Set environment based on hostname
 switch ($hostname) {
     case 'localhost':
-    case 'microdot.dev':
+    case 'mp.dev':
         define('WP_ENV', 'development');
         break;
 
-    case 'microdot.neilwatsondesign.co.uk':
+    case 'mighton.redgraphic.co.uk':
         define('WP_ENV', 'staging');
         break;
 
-    case 'www.microdot.biz/':
-    case 'microdot.biz/':
+    case 'www.mightonprodcts.com':
+    case 'mightonprodcts.com':
     default: 
         define('WP_ENV', 'production');
 }
